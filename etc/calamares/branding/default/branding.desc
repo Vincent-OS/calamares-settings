@@ -122,7 +122,7 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "Vincent OS"
-    shortProductName:    Generic
+    shortProductName:    Vincent OS
     version:             1.0 (Origin)
     shortVersion:        1.0
     versionedName:       Vincent OS 1.0 (Origin)
