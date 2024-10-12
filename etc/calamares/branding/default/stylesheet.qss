@@ -28,69 +28,68 @@ The examples are not exhaustive.
 
 */
 
-/*** Generic Widgets.
- *
- * You can style **all** widgets of a given class by selecting
- * the class name. Some widgets have specialized sub-selectors.
- */
+#mainApp {
+  background-color: black;
+  color: white;
+}
 
-/*
-QPushButton { background-color: green; }
-*/
+#sudebarApp {
+  background-color: black;
+  color: white;
+}
 
-/*** Main application window.
- *
- * The main application window has the sidebar, which in turn
- * contains a logo and a list of items -- note that the list
- * can **not** be styled, since it has its own custom C++
- * delegate code.
- */
+#logoApp {
+  background: none;
+}
 
-/*
-#mainApp { }
-#sidebarApp { }
-#logoApp { }
-*/
+QWidget {
+  background-color: black;
+  color: white;
+}
 
-/*** Welcome module.
- *
- * There are plenty of parts, but the buttons are the most interesting
- * ones (donate, release notes, ...). The little icon image can be
- * styled through *qproperty-icon*, which is a little obscure.
- * URLs can reference the QRC paths of the Calamares application
- * or loaded via plugins or within the filesystem. There is no
- * comprehensive list of available icons, though.
- */
+QLabel {
+  color: white;
+}
 
-/*
-QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
-#donateButton,
-#supportButton,
-#releaseNotesButton,
-#knownIssuesButton { qproperty-icon: url(:/data/images/help.svg); }
-*/
+QLineEdit {
+  background-color: black;
+  color: white;
+}
 
-/*** Partitioning module.
- *
- * Many moving parts, which you will need to experiment with.
- */
+QListView {
+  background-color: black;
+  color: white;
+}
 
-/*
-#bootInfoIcon { }
-#bootInfoLable { }
-#deviceInfoIcon { }
-#defineInfoLabel { }
-#scrollAreaWidgetContents { }
-#partitionBarView { }
-*/
+QPushButton {
+  background-color: #55ab41;
+  color: white;
+}
 
-/*** Licensing module.
- *
- * The licensing module paints individual widgets for each of
- * the licenses. The item can be collapsed or expanded.
- */
+QToolTip {
+  background-color: black;
+  color: white;
+}
 
-/*
-#licenseItem {  }
-#licenseItemFullText {  }
-*/
+QTreeView {
+  background-color: black;
+  color: white;
+}
+
+#layoutSelector {
+  background-color: black;
+  color: white;
+}
+
+#variantSelector {
+  background-color: black;
+  color: white;
+}
+
+#scrollAreaWidgetContents {
+  color: white;
+}
+
+#defineInfoLabel {
+  color: white
+}
