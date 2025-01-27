@@ -30,23 +30,7 @@ Presentation
 
     Slide {
         Image {
-            source: "squid.png"
-            width: 1920; height: 1080
-            anchors.centerIn: parent
-        }
-    }
-
-    Slide {
-        Image {
-            source: "squid.png"
-            width: 1920; height: 1080
-            anchors.centerIn: parent
-        }
-    }
-
-    Slide {
-        Image {
-            source: "squid.png"
+            source: "Slide.png"
             width: 1920; height: 1080
             anchors.centerIn: parent
         }
