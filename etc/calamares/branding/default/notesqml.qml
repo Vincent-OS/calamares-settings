@@ -50,8 +50,8 @@ Item {
             text: qsTr("<h3>%1</h3>
             <p>
             Welcome to the First Release of Vincent OS! <br/> <br/>
-            After 8 years of dedicated research and development. I'm thrilled to introduce the first stable version of Vincent OS. <br/>
-            This release is only the beginning, and I want to express my heartfelt gratitude to everyone who belived in this project. While Vincent OS is currently a Linux distribution, I'm excited to keep pushing its boundaries. <br/> <br/>
+            After 9 years of research and development. I can now present to you the first stable version of Vincent OS. <br/>
+            This release is only the beginning, and I want to thanks to everyone who belived in this project. While Vincent OS is currently a Linux distribution, I'm excited to keep pushing its boundaries. <br/> <br/>
             Welcome to Vincent OS 1.0! I hope you have a very great day. <br/> <br/>
             - Florian. M, founder of v38armageddon and creator of Vincent OS
             </p>"
