@@ -49,10 +49,25 @@ Item {
 
             text: qsTr("<h3>%1</h3>
             <p>
-            Welcome to the First Release of Vincent OS! <br/> <br/>
-            After 9 years of research and development. I can now present to you the first stable version of Vincent OS. <br/>
-            This release is only the beginning, and I want to thanks to everyone who belived in this project. While Vincent OS is currently a Linux distribution, I'm excited to keep pushing its boundaries. <br/> <br/>
-            Welcome to Vincent OS 1.0! I hope you have a very great day. <br/> <br/>
+            Welcome to Vincent OS 1.1, the first Stable Release <br/> <br/>
+            This release is an updated edition of the 1.0 Open Beta. Essentialy fixing major issues and updating softwares. <br/>
+            Changelogs:
+            </p>
+            <ul>
+                <li>Fixing a issue when installing Vincent OS would fail if booted in RAM.</li>
+                <li>Fixing a issue when the live user named 'user' is not removed in the installed system.</li>
+                <li>Fixing a issue when NetworkManager is not enabled by default on LiveCD.</li>
+                <li>Fixing a issue when the /etc/pacman.d/gnupg is mounted on tmpfs, unabling to update the system without 'pacman-key --init'.</li>
+                <li>Updated Core LivePatch to version 2.0.</li>
+                <li>Replaced GNOME Web by Falkon.</li>
+                <li>Added GRUB recovery mode boot entry.</li>
+                <li>Added Installation mode boot entry for ISO.</li>
+                <li>Optimization of systemd services.</li>
+                <li>Adding ParallelDownload on /etc/pacman.conf, default value is 5.</li>
+                <li>Relisting pacman repositories and adding fallback servers in separate files for Vincent OS repositories.</li>
+            </ul>
+            <p>
+            Hope you have a great day. <br/> <br/>
             - Florian. M, founder of v38armageddon and creator of Vincent OS
             </p>"
             ).arg(Branding.string(Branding.VersionedName))
