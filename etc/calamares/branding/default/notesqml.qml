@@ -49,22 +49,30 @@ Item {
 
             text: qsTr("<h3>%1</h3>
             <p>
-            Welcome to Vincent OS 1.1, the first Stable Release <br/> <br/>
-            This release is an updated edition of the 1.0 Open Beta. Essentialy fixing major issues and updating softwares. <br/>
+            Welcome to Vincent OS 1.2! <br/> <br/>
+            This release is an updated edition of the 1.1. Essentialy fixing major issues and updating softwares. <br/>
             Changelogs:
             </p>
+            <h2>New features</h2>
             <ul>
-                <li>Fixing a issue when installing Vincent OS would fail if booted in RAM.</li>
-                <li>Fixing a issue when the live user named 'user' is not removed in the installed system.</li>
-                <li>Fixing a issue when NetworkManager is not enabled by default on LiveCD.</li>
-                <li>Fixing a issue when the /etc/pacman.d/gnupg is mounted on tmpfs, unabling to update the system without 'pacman-key --init'.</li>
-                <li>Updated Core LivePatch to version 2.0.</li>
-                <li>Replaced GNOME Web by Falkon.</li>
-                <li>Added GRUB recovery mode boot entry.</li>
-                <li>Added Installation mode boot entry for ISO.</li>
-                <li>Optimization of systemd services.</li>
-                <li>Adding ParallelDownload on /etc/pacman.conf, default value is 5.</li>
-                <li>Relisting pacman repositories and adding fallback servers in separate files for Vincent OS repositories.</li>
+                <li>Added asian language support (noto-fonts-cjk)</li>
+                <li>Added Flatpak permissions settings in KDE Settings panel.</li>
+                <li>Import existing .bashrc aliases to PowerShell $PROFILE.</li>
+            </ul>
+            <h2>Enhancements</h2>
+            <ul>
+                <li>Updated Core LivePatch to version 2.1.</li>
+                <li>Replaced Falkon by WebSM.</li>
+                <li>Replaced power-profiles-daemon by tlp for better battery use.</li>
+                <li>Replaced base package by system designed for Vincent OS.</li>
+                <li>Replaced hard /etc/skel content by the vincent-os-skel package for better maintenance.</li>
+            </ul>
+            <h2>Fixes</h2>
+            <ul>
+                <li>Fix problem with pgpkeys on update. Thanks to FredBezies!</li>
+                <li>Fix ufw service that was not enabled by default after installation.</li>
+                <li>Removed mandatory internet check when booting from ISO.</li>
+                <li>Removed mkinitcpio-archiso package that still installed in the system.</li>
             </ul>
             <p>
             Hope you have a great day. <br/> <br/>

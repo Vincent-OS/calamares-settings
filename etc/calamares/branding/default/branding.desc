@@ -123,13 +123,13 @@ navigation: widget
 strings:
     productName:         "Vincent OS"
     shortProductName:    Vincent OS
-    version:             1.1 (Origin)
-    shortVersion:        1.1
-    versionedName:       Vincent OS 1.1 (Origin)
-    shortVersionedName:  Vincent OS 1.1
+    version:             1.2 (Origin)
+    shortVersion:        1.2
+    versionedName:       Vincent OS 1.2 (Origin)
+    shortVersionedName:  Vincent OS 1.2
     bootloaderEntryName: VincentOS
     productUrl:          https://vincent-os.v38armageddon.net/
-    supportUrl:          https://docs.v38armageddon.net/vincent-os/presentation
+    supportUrl:          https://forum.v38armageddon.net/c/vincent-os/
     knownIssuesUrl:      https://github.com/Vincent-OS/issues/issues
     releaseNotesUrl:     https://blog.v38armageddon.net/vincent-os/
     donateUrl:           https://github.com/sponsors/Vincent-OS
