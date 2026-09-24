@@ -121,12 +121,12 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "Vincent OS"
-    shortProductName:    Vincent OS
-    version:             1.2 (Origin)
-    shortVersion:        1.2
-    versionedName:       Vincent OS 1.2 (Origin)
-    shortVersionedName:  Vincent OS 1.2
+    productName:         "Vincent OS Server"
+    shortProductName:    Vincent OS Server
+    version:             2027 (Cyclades)
+    shortVersion:        2027
+    versionedName:       Vincent OS Server 2027 (Cyclades)
+    shortVersionedName:  Vincent OS Server 2027
     bootloaderEntryName: VincentOS
     productUrl:          https://vincent-os.v38armageddon.net/
     supportUrl:          https://forum.v38armageddon.net/c/vincent-os/

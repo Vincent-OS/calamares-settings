@@ -49,31 +49,8 @@ Item {
 
             text: qsTr("<h3>%1</h3>
             <p>
-            Welcome to Vincent OS 1.2! <br/> <br/>
-            This release is an updated edition of the 1.1. Essentialy fixing major issues and updating softwares. <br/>
-            Changelogs:
+            TEST_DISPLAY_NOTESQML_TO_END_PC
             </p>
-            <h2>New features</h2>
-            <ul>
-                <li>Added asian language support (noto-fonts-cjk)</li>
-                <li>Added Flatpak permissions settings in KDE Settings panel.</li>
-                <li>Import existing .bashrc aliases to PowerShell $PROFILE.</li>
-            </ul>
-            <h2>Enhancements</h2>
-            <ul>
-                <li>Updated Core LivePatch to version 2.1.</li>
-                <li>Replaced Falkon by WebSM.</li>
-                <li>Replaced power-profiles-daemon by tlp for better battery use.</li>
-                <li>Replaced base package by system designed for Vincent OS.</li>
-                <li>Replaced hard /etc/skel content by the vincent-os-skel package for better maintenance.</li>
-            </ul>
-            <h2>Fixes</h2>
-            <ul>
-                <li>Fix problem with pgpkeys on update. Thanks to FredBezies!</li>
-                <li>Fix ufw service that was not enabled by default after installation.</li>
-                <li>Removed mandatory internet check when booting from ISO.</li>
-                <li>Removed mkinitcpio-archiso package that still installed in the system.</li>
-            </ul>
             <p>
             Hope you have a great day. <br/> <br/>
             - Florian. M, founder of v38armageddon and creator of Vincent OS
